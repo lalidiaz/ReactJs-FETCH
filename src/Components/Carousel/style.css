@@ -1,0 +1,9 @@
+.carouselContainer{
+    background-color:white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin:0 auto;
+    padding-top:40px;
+    
+}
