@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from './Components/Carousel'
 import './App.css';
 
+
 class App extends React.Component {
 
   constructor(props) {
@@ -13,7 +14,7 @@ class App extends React.Component {
   }
 
   async componentDidMount() {
-    const data = await fetch('https://api.mercadolibre.com/sites/MLA/search?q=polaroid&limit=5')
+    const data = await fetch('https://api.mercadolibre.com/sites/MLA/search?q=polaroid&limit=6')
     const jsonData = await data.json()
 
     this.setState({

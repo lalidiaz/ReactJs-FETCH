@@ -1,9 +1,10 @@
+
 .carouselContainer{
-    background-color:white;
+    background-image: linear-gradient(to right top, #e3e3e3, #e5e5e5, #e7e7e7, #eaeaea, #ececec); 
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
     margin:0 auto;
-    padding-top:40px;
-    
+    padding-top:40px;    
 }
+

@@ -13,9 +13,12 @@ class Product extends React.Component {
     render() {
         return (
             <div className='productContainer'>
-                <p className='titulo'>{this.props.title}</p>
+                <div class='text'>
+                <p className='titulo'><strong>Title: </strong>{this.props.title}</p>
+                <p><strong>Price: </strong> {this.currencyMap[this.props.currency]}{this.props.price}</p>
+                </div>
                 <img src={this.props.thumbnail} />
-                <p>Price: {this.currencyMap[this.props.currency]}{this.props.price}</p>
+                
                 
             </div>
         )
